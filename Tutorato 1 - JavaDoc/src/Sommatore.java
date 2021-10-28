@@ -37,6 +37,18 @@ public class Sommatore {
 		return firstNumber + b;
 	}
 	
+	public int getFirstNumber() {
+		return firstNumber;
+	}
+
+	public void setFirstNumber(int firstNumber) {
+		this.firstNumber = firstNumber;
+	}
+
+	public void setB(int b) {
+		this.b = b;
+	}
+
 	public static void main(String[] args) {
 		Sommatore s = new Sommatore(2, 5);
 		System.out.println(s.sumNumbers());
