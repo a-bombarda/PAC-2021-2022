@@ -16,11 +16,11 @@ public class CalcModel extends Observable{
 
 	// Costruttore: chiama il reset per (re)impostare il valore inizale
 	public CalcModel() {
-		reset();
+		resetModel();
 	}
 
 	// Reset del valore iniziale
-	public void reset() {
+	public void resetModel() {
 		System.out.println("[MODEL] reset ");
 		m_total = new Integer(INITIAL_VALUE);
 		// Comunica un cambio dello stato
@@ -29,7 +29,6 @@ public class CalcModel extends Observable{
 		notifyObservers();
 		System.out.println("[MODEL] Observers notified (reset)");
 	}
-
 
 	// Moltiplica per il valore passato come stringa 
 	// Attenzione: non dalla GUI ma dal controller

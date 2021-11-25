@@ -48,7 +48,7 @@ public class CalcController {
         public void actionPerformed(ActionEvent e) {
         	System.out.println("[CONTROLLER] reset action received");
         	//Uso il riferimento al modello per fargli effettuare il reset
-            m_model.reset();
+            m_model.resetModel();
          }
     }
 }
