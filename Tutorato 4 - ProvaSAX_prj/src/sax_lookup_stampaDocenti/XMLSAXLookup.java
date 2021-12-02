@@ -22,8 +22,8 @@ public class XMLSAXLookup {
 	public void lookupDocument(String path) {
 		LookupHandler h = new LookupHandler();
 		SAXParserFactory spf = SAXParserFactory.newInstance();
-		//spf.setValidating(true); 	// con DTD
-		spf.setValidating(false); 	// senza DTD
+		spf.setValidating(true); 	// con DTD
+		//spf.setValidating(false); 	// senza DTD
 		spf.setNamespaceAware(false);
 		try {
 			SAXParser sp = spf.newSAXParser();

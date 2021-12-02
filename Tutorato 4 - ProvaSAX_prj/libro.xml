@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE libro SYSTEM "libro.dtd">
 <libro titolo="1984" autore="G.Orwell" editore="Mondadori">
-  <prefazione autore="Bill Gates"> Questo libro non dice il vero.Orwell ha sbagliato...
+  <prefazione autore="Bill Gates"> 
+  	Questo libro non dice il vero.Orwell ha sbagliato...
   </prefazione>
   <indice>
        <titolo>Parte prima</titolo>
