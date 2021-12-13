@@ -1,0 +1,12 @@
+io/grpc/auth/ClientAuthInterceptor.java
+ io.grpc.auth.ClientAuthInterceptor
+ io.grpc.auth.ClientAuthInterceptor$1
+io/grpc/auth/package-info.java
+ io.grpc.auth.package-info
+io/grpc/auth/GoogleAuthLibraryCallCredentials.java
+ io.grpc.auth.GoogleAuthLibraryCallCredentials
+ io.grpc.auth.GoogleAuthLibraryCallCredentials$1
+ io.grpc.auth.GoogleAuthLibraryCallCredentials$JwtHelper
+ io.grpc.auth.GoogleAuthLibraryCallCredentials$MethodPair
+io/grpc/auth/MoreCallCredentials.java
+ io.grpc.auth.MoreCallCredentials

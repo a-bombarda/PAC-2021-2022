@@ -1,0 +1,22 @@
+See file:///Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato%206%20-%20Esempio%20gRPC/compiler/build/tmp/compileJava_pluginExecutableJava_pluginCpp/output.txt for all output for compileJava_pluginExecutableJava_pluginCpp.
+compiling java_plugin.cpp failed.
+In file included from /Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato 6 - Esempio gRPC/compiler/src/java_plugin/cpp/java_plugin.cpp:24:
+/Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato 6 - Esempio gRPC/compiler/src/java_plugin/cpp/java_generator.h:24:10: fatal error: 'google/protobuf/io/zero_copy_stream.h' file not found
+#include <google/protobuf/io/zero_copy_stream.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+compiling java_generator.h failed.
+/Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato 6 - Esempio gRPC/compiler/src/java_plugin/cpp/java_generator.h:24:10: fatal error: 'google/protobuf/io/zero_copy_stream.h' file not found
+#include <google/protobuf/io/zero_copy_stream.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+compiling java_generator.cpp failed.
+In file included from /Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato 6 - Esempio gRPC/compiler/src/java_plugin/cpp/java_generator.cpp:17:
+/Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato 6 - Esempio gRPC/compiler/src/java_plugin/cpp/java_generator.h:24:10: fatal error: 'google/protobuf/io/zero_copy_stream.h' file not found
+#include <google/protobuf/io/zero_copy_stream.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+Finished compileJava_pluginExecutableJava_pluginCpp, see full log file:///Users/andrea/Documents/GitHub/PAC-2021-2022/Tutorato%206%20-%20Esempio%20gRPC/compiler/build/tmp/compileJava_pluginExecutableJava_pluginCpp/output.txt.

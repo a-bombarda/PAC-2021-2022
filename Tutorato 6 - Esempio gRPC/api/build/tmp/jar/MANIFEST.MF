@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: grpc-api
+Implementation-Version: 1.34.1
+Built-By: andrea
+Built-JDK: 11.0.11
+Source-Compatibility: 1.7
+Target-Compatibility: 1.7
+
